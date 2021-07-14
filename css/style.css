@@ -34,9 +34,9 @@ body li {
     line-height: 1.19;
     letter-spacing: 0.03em;
 }
-.nav-link-1,
-.nav-link-2,
-.nav-link-3 {
+.nav-list {
+}
+.nav-link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -52,16 +52,12 @@ body li {
 }
 .nav-mail:hover,
 .nav-phone:hover,
-.nav-link-1:hover,
-.nav-link-2:hover,
-.nav-link-3:hover,
+.nav-link:hover,
 .footer-mail:hover,
 .footer-phone:hover,
 .nav-mail:focus,
 .nav-phone:focus,
-.nav-link-1:focus,
-.nav-link-2:focus,
-.nav-link-3:focus,
+.nav-link:focus,
 .footer-mail:focus,
 .footer-phone:focus {
     color: var(--accent-color);
@@ -90,20 +86,14 @@ body li {
     text-align: center;
     letter-spacing: 0.06em;
 }
-.features-subtitle-1,
-.features-subtitle-2,
-.features-subtitle-3,
-.features-subtitle-4 {
+.features-subtitle {
     font-weight: bold;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.features-text-1,
-.features-text-2,
-.features-text-3,
-.features-text-4 {
+.features-text {
     color: var(--dominant-text-color);
     font-size: 14px;
     line-height: 1.71;
@@ -126,26 +116,17 @@ body li {
     text-align: center;
     letter-spacing: 0.03em;
 }
-.team-user-1,
-.team-user-2,
-.team-user-3,
-.team-user-4 {
+.team-user {
     background-color: var(--card-background);
 }
-.user-name-1,
-.user-name-2,
-.user-name-3,
-.user-name-4 {
+.user-name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
 }
-.user-profession-1,
-.user-profession-2,
-.user-profession-3,
-.user-profession-4 {
+.user-profession {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -183,11 +164,7 @@ body li {
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
-.portfolio-button-1,
-.portfolio-button-2,
-.portfolio-button-3,
-.portfolio-button-4,
-.portfolio-button-5 {
+.portfolio-button {
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -199,66 +176,27 @@ body li {
     background-color: var(--portfolio-button-background);
     cursor: pointer;
 }
-.portfolio-button-1:hover,
-.portfolio-button-2:hover,
-.portfolio-button-3:hover,
-.portfolio-button-4:hover,
-.portfolio-button-5:hover,
-.portfolio-button-1:focus,
-.portfolio-button-2:focus,
-.portfolio-button-3:focus,
-.portfolio-button-4:focus,
-.portfolio-button-5:focus {
+.portfolio-button:hover,
+.portfolio-button:focus {
     background-color: var(--accent-color);
 }
-.portfolio-item-project-1,
-.portfolio-item-project-2,
-.portfolio-item-project-3,
-.portfolio-item-project-4,
-.portfolio-item-project-5,
-.portfolio-item-project-6,
-.portfolio-item-project-7,
-.portfolio-item-project-8,
-.portfolio-item-project-9 {
+.portfolio-item-project {
     background-color: var(--card-background);
 }
-.portfolio-link-project-1,
-.portfolio-link-project-2,
-.portfolio-link-project-3,
-.portfolio-link-project-4,
-.portfolio-link-project-5,
-.portfolio-link-project-6,
-.portfolio-link-project-7,
-.portfolio-link-project-8,
-.portfolio-link-project-9 {
+.portfolio-link-project {
     text-decoration: none;
 }
-.portfolio-subtitle-project-1,
-.portfolio-subtitle-project-2,
-.portfolio-subtitle-project-3,
-.portfolio-subtitle-project-4,
-.portfolio-subtitle-project-5,
-.portfolio-subtitle-project-6,
-.portfolio-subtitle-project-7,
-.portfolio-subtitle-project-8,
-.portfolio-subtitle-project-9 {
+.portfolio-subtitle-project {
     font-weight: bold;
     font-size: 18px;
     line-height: 2.0;
     letter-spacing: 0.06em;
     color: var(--dominant-text-title-color);
 }
-.portfolio-text-project-1,
-.portfolio-text-project-2,
-.portfolio-text-project-3,
-.portfolio-text-project-4,
-.portfolio-text-project-5,
-.portfolio-text-project-6,
-.portfolio-text-project-7,
-.portfolio-text-project-8,
-.portfolio-text-project-9 {
+.portfolio-text-project {
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.03em;
     color: var(--dominant-text-color);
+}
 }
