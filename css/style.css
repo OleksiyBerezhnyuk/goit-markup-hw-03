@@ -21,6 +21,14 @@ body li {
 }
 .navigation-line {
     background-color: var(--header-background-color);
+    display: flex;
+    justify-content: space-between;
+    width: 1600px;
+    padding-right: 215px;
+    padding-left: 215px;
+}
+.logo-div {
+    display: flex;
 }
 .blue-logotype {
     color: var(--accent-color);
@@ -33,8 +41,16 @@ body li {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    align-self: center;
+    margin-right: 93px;
 }
 .nav-list {
+    display: flex;
+    padding-inline-start: 0px;    
+}
+.nav-item:not(:last-child),
+.nav-contact-item:not(:last-child) {
+    margin-right: 50px;
 }
 .nav-link {
     font-weight: 500;
@@ -44,9 +60,15 @@ body li {
     color: var(--dominant-text-title-color);
     text-decoration: none;
 }
+.nav-contact-list {
+    display: flex;
+}
 .nav-mail,
 .nav-phone {
     font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
     color: var(--dominant-text-color);
     text-decoration: none;
 }
@@ -62,8 +84,13 @@ body li {
 .footer-phone:focus {
     color: var(--accent-color);
 }
+.navigation-line {
+    border-bottom: 1px solid #ECECEC;
+}
 .hero {
     background-color: var(--hero-background-color);
+    width: 1600px;
+    height: 600px;
 }
 .hero-title {
     color: var(--white-text-color);
@@ -73,6 +100,7 @@ body li {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+
 }
 .hero-button {
     background-color: var(--accent-color);
@@ -82,9 +110,16 @@ body li {
     font-size: 16px;
     line-height: 1.875;
     display: flex;
-    align-items: center;
+    margin: 0px auto;
     text-align: center;
     letter-spacing: 0.06em;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+.features-title,
+.portfolio-title {
+    display: none;
 }
 .features-subtitle {
     font-weight: bold;
@@ -198,5 +233,4 @@ body li {
     line-height: 1.875;
     letter-spacing: 0.03em;
     color: var(--dominant-text-color);
-}
 }
