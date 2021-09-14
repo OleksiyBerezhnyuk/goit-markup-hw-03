@@ -19,16 +19,31 @@ body {
 body li {
     list-style-type: none;
 }
-.navigation-line {
-    background-color: var(--header-background-color);
-    display: flex;
-    justify-content: space-between;
+section {    
     width: 1600px;
     padding-right: 215px;
     padding-left: 215px;
 }
-.logo-div {
+h1,h2,h3,p,figure {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+ul {
     display: flex;
+    padding-inline-start: 0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+.navigation-line {
+    background-color: var(--header-background-color);
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ECECEC;
+    width: 1600px;
+    padding-right: 215px;
+    padding-left: 215px;
 }
 .blue-logotype {
     color: var(--accent-color);
@@ -43,25 +58,27 @@ body li {
     letter-spacing: 0.03em;
     align-self: center;
     margin-right: 93px;
-}
-.nav-list {
-    display: flex;
-    padding-inline-start: 0px;    
+    padding-top: 24px;
+    padding-bottom: 25px;
+    display: block;
 }
 .nav-item:not(:last-child),
 .nav-contact-item:not(:last-child) {
     margin-right: 50px;
 }
 .nav-link {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: block;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--dominant-text-title-color);
-    text-decoration: none;
+    text-decoration: none;    
 }
-.nav-contact-list {
-    display: flex;
+.nav-contact {
+    margin-left: auto;
 }
 .nav-mail,
 .nav-phone {
@@ -71,6 +88,9 @@ body li {
     letter-spacing: 0.02em;
     color: var(--dominant-text-color);
     text-decoration: none;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: block;
 }
 .nav-mail:hover,
 .nav-phone:hover,
@@ -83,9 +103,6 @@ body li {
 .footer-mail:focus,
 .footer-phone:focus {
     color: var(--accent-color);
-}
-.navigation-line {
-    border-bottom: 1px solid #ECECEC;
 }
 .hero {
     background-color: var(--hero-background-color);
@@ -126,12 +143,19 @@ body li {
 .features {
     margin-bottom: 94px;
 }
+.features-item {
+    width: 270px;
+}
+.features-item:not(:last-child) {
+    margin-right: 30px;
+}
 .features-subtitle {
     font-weight: bold;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 .features-text {
     color: var(--dominant-text-color);
@@ -148,8 +172,13 @@ body li {
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 50px;
+}
+.work-item:not(:last-child) {
+    margin-right: 30px;
 }
 .team {
+    padding-bottom: 94px;
     background-color: var(--our-team-background-color);
 }
 .team-title {
@@ -158,9 +187,16 @@ body li {
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 50px;
 }
 .team-user {
+    padding-bottom: 30px;
     background-color: var(--card-background);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.team-item:not(:last-child) {
+    margin-right: 30px;
 }
 .user-name {
     font-weight: 500;
@@ -168,6 +204,8 @@ body li {
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 .user-profession {
     font-size: 16px;
@@ -177,6 +215,9 @@ body li {
     color: var(--dominant-text-color);
 }
 .footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 215px;
     background-color: var(--footer-background-color);
 }
 .logotype-white {
@@ -188,13 +229,19 @@ body li {
     color: var(--white-text-color);
     text-decoration: none;
 }
-.footer-address {
+.footer-address {    
+    margin-top: 20px;
+    margin-bottom: 9px;
     color: var(--white-text-color);
     font-weight: normal;
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+}
+.footer-mail {
+    display: block;
+    margin-bottom: 9px;
 }
 .footer-mail,
 .footer-phone {
