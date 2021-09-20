@@ -9,37 +9,38 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body class="container">
+<body>
     <header class="navigation-line">
-        <a class="logotype" href="./index.html"><span class="blue-logotype">Web</span>Studio</a>
-        <nav class="nav">
-            <ul class="nav-list">
-                <li class="nav-item">
-                    <a class="nav-link" href="./index.html">Студия</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./portfolio.html">Портфолио</a>    
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="">Контакты</a>
-                </li>    
-                
-            </ul>
-        </nav>    
-        <nav class="nav-contact">
-            <ul class="nav-contact-list">
-                <li class="nav-contact-item">
-                    <a class="nav-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                </li>
-                <li class="nav-contact-item">
-                    <a class="nav-phone" href="tel:+380961111111">+38 096 111 11 11</a>
-                </li>
-            </ul>
-        </nav>
-        
+        <div class="container">
+            <a class="logotype" href="./index.html"><span class="blue-logotype">Web</span>Studio</a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Студия</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./portfolio.html">Портфолио</a>    
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Контакты</a>
+                    </li>    
+                    
+                </ul>
+            </nav>    
+            <nav class="nav-contact">
+                <ul class="nav-contact-list">
+                    <li class="nav-contact-item">
+                        <a class="nav-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li class="nav-contact-item">
+                        <a class="nav-phone" href="tel:+380961111111">+38 096 111 11 11</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main class="portfolio-main">
-        <section class="portfolio">
+        <section class="portfolio container">
             <h1 class="portfolio-title">Портфолио</h1>
             <ul class="portfolio-list-button">
                 <li class="portfolio-item-button">
@@ -62,64 +63,82 @@
                 <li class="portfolio-item-project">
                     <a class="portfolio-link-project" href="">
                         <img class="portfolio-img-project" src="./images/portfolio(1).jpg" alt="ноутбук с открытым сайтом на котором карточки троих людей" width="370">
-                        <h2 class="portfolio-subtitle-project">Технокряк</h2>
-                        <p class="portfolio-text-project">Веб-сайт</p>
+                        <div class="content">
+                            <h2 class="portfolio-subtitle-project">Технокряк</h2>
+                            <p class="portfolio-text-project">Веб-сайт</p>
+                        </div>
                     </a>
                 </li>
                 <li class="portfolio-item-project">
                     <a class="portfolio-link-project" href="">
                         <img class="portfolio-img-project" src="./images/portfolio(2).jpg" alt="два баскетболиста с мячом" width="370">
-                        <h2 class="portfolio-subtitle-project">Постер New Orlean vs Golden Star</h2>
-                        <p class="portfolio-text-project">Дизайн</p>
+                        <div class="content">
+                            <h2 class="portfolio-subtitle-project">Постер New Orlean vs Golden Star</h2>
+                            <p class="portfolio-text-project">Дизайн</p>
+                        </div>
                     </a>
                 </li>
                 <li class="portfolio-item-project">
                     <a class="portfolio-link-project" href="">
                         <img class="portfolio-img-project" src="./images/portfolio(3).jpg" alt="напис The Seafood restaurant и на фоне рисунок рыбы" width="370">
-                        <h2 class="portfolio-subtitle-project">Ресторан Seafood</h2>
-                        <p class="portfolio-text-project">Приложение</p>
+                        <div class="content">
+                            <h2 class="portfolio-subtitle-project">Ресторан Seafood</h2>
+                            <p class="portfolio-text-project">Приложение</p>
+                        </div>
                     </a>
                 </li>
                 <li class="portfolio-item-project">
                     <a class="portfolio-link-project" href="">
                         <img class="portfolio-img-project" src="./images/portfolio(4).jpg" alt="наушники компьютерные" width="370">
-                        <h2 class="portfolio-subtitle-project">Проект Prime</h2>
-                        <p class="portfolio-text-project">Маркетинг</p>
+                        <div class="content">
+                            <h2 class="portfolio-subtitle-project">Проект Prime</h2>
+                            <p class="portfolio-text-project">Маркетинг</p>
+                        </div>
                     </a>
                 </li>
                 <li class="portfolio-item-project">
                     <a class="portfolio-link-project" href="">
                         <img class="portfolio-img-project" src="./images/portfolio(5).jpg" alt="белая большая коробка и меньше коричневая" width="370">
-                        <h2 class="portfolio-subtitle-project">Проект Boxes</h2>
-                        <p class="portfolio-text-project">Приложение</p>
+                        <div class="content">
+                            <h2 class="portfolio-subtitle-project">Проект Boxes</h2>
+                            <p class="portfolio-text-project">Приложение</p>
+                        </div>
                     </a>
                 </li>
                 <li class="portfolio-item-project">
                     <a class="portfolio-link-project" href="">
                         <img class="portfolio-img-project" src="./images/portfolio(6).jpg" alt="монитор компьютера с запущеным сайтом" width="370">
-                        <h2 class="portfolio-subtitle-project">Inspiration has no Borders</h2>
-                        <p class="portfolio-text-project">Веб-сайт</p>
+                        <div class="content">
+                            <h2 class="portfolio-subtitle-project">Inspiration has no Borders</h2>
+                            <p class="portfolio-text-project">Веб-сайт</p>
+                        </div>
                     </a>
                 </li>
                 <li class="portfolio-item-project">
                     <a class="portfolio-link-project" href="">
                         <img class="portfolio-img-project" src="./images/portfolio(7).jpg" alt="книга с иллюстрациями" width="370">
-                        <h2 class="portfolio-subtitle-project">Издание Limited Edition</h2>
-                        <p class="portfolio-text-project">Дизайн</p>
+                        <div class="content">
+                            <h2 class="portfolio-subtitle-project">Издание Limited Edition</h2>
+                            <p class="portfolio-text-project">Дизайн</p>
+                        </div>
                     </a>
                 </li>
                 <li class="portfolio-item-project">
                     <a class="portfolio-link-project" href="">
                         <img class="portfolio-img-project" src="./images/portfolio(8).jpg" alt="бирка с названием проекта" width="370">
-                        <h2 class="portfolio-subtitle-project">Проект LAB</h2>
-                        <p class="portfolio-text-project">Маркетинг</p>
+                        <div class="content">
+                            <h2 class="portfolio-subtitle-project">Проект LAB</h2>
+                            <p class="portfolio-text-project">Маркетинг</p>
+                        </div>
                     </a>
                 </li>
                 <li class="portfolio-item-project">
                     <a class="portfolio-link-project" href="">
                         <img class="portfolio-img-project" src="./images/portfolio(9).jpg" alt="на ноутбуке работают в програме" width="370">
-                        <h2 class="portfolio-subtitle-project">Growing Business</h2>
-                        <p class="portfolio-text-project">Приложение</p>
+                        <div class="content">
+                            <h2 class="portfolio-subtitle-project">Growing Business</h2>
+                            <p class="portfolio-text-project">Приложение</p>
+                        </div>
                     </a>
                 </li>
             </ul>
